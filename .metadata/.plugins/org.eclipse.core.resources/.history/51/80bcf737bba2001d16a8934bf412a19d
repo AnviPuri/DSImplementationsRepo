@@ -1,0 +1,51 @@
+package com.ems.user.service.impl;
+
+import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
+
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
+import org.springframework.stereotype.Service;
+
+import com.ems.user.dto.response.UserResponse;
+import com.ems.user.excel.ExcelGenerator;
+import com.ems.user.service.ReportService;
+import com.ems.user.service.UserService;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+@Service
+public class ReportServiceImpl implements ReportService {
+
+	@Autowired
+	private UserService userServiceImpl;
+
+	@Override
+	public void generateEmployeeExcel(HttpServletResponse response) throws IOException {
+
+		DateFormat dateFormat = new SimpleDateFormat("YYYY-MM-DD:HH:MM:SS");
+		String currentDateTime = dateFormat.format(new Date());
+
+		String fileType = "attachment; filename=employee_details_" + currentDateTime + ".xls";
+		response.setHeader("Content-Disposition", fileType);
+		response.setContentType(MediaType.APPLICATION_OCTET_STREAM.getType());
+
+		HashMap<String, Object> resultBody = userServiceImpl.getAllUsers("EMPLOYEE", 0, 0);
+		Object sourceObject = resultBody.get("userResponseList");
+		List<UserResponse> listOfUsers =  new ObjectMapper().convertValue(sourceObject, new TypeReference<List<UserResponse>>() {});
+
+		System.out.println(listOfUsers.size());
+
+		ExcelGenerator generator = new ExcelGenerator(listOfUsers);
+
+		generator.generate(response);
+
+	}
+
+}

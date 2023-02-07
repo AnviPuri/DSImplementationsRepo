@@ -1,0 +1,23 @@
+package com.ems.user;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
+import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.test.web.servlet.MockMvc;
+
+import com.ems.user.service.impl.UserServiceImpl;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+@WebMvcTest
+public class UserControllerTest {
+
+	@Autowired
+	private MockMvc mockMvc;
+
+	@MockBean
+	private UserServiceImpl userServiceImpl;
+
+	@Autowired
+	private ObjectMapper objectMapper;
+
+}

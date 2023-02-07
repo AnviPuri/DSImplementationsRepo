@@ -1,0 +1,21 @@
+package com.ems.user.excel;
+
+import java.util.List;
+
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+import com.ems.user.entity.User;
+
+public class ExcelGenerator {
+	
+	private List<User> userList;
+	private XSSFWorkbook workbook;
+	private XSSFSheet sheet;
+
+	public ExcelGenerator(List<User> userList) {
+		this.userList = userList;
+		workbook = new XSSFWorkbook();
+	}
+
+}

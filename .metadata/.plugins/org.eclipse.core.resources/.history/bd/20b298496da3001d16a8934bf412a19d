@@ -1,0 +1,5 @@
+package com.ems.user.generator;
+
+public class PdfGenerator {
+
+}

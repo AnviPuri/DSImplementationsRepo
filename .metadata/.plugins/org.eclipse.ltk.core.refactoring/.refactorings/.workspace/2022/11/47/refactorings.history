@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;dao-layer&apos;" deleteContents="false" description="Delete resource &apos;dao-layer&apos;" element1="/dao-layer" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1668411270858"/>&#x0A;<refactoring comment="Delete resource &apos;ed-taxonomy-management-service&apos;" deleteContents="false" description="Delete resource &apos;ed-taxonomy-management-service&apos;" element1="/ed-taxonomy-management-service" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1668411473120"/>
+</session>

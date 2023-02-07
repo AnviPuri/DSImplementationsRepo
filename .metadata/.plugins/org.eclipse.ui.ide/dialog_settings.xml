@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode&gt;&#x0A;&lt;infoNode path=&quot;/ems-user-service/src/main/java/com/ems/user/dto/response/AddressResponse.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-user-service/src/main/java/com/ems/user/dto/response/EducationResponse.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-user-service/src/main/java/com/ems/user/dto/request/EducationRequest.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-user-service/src/main/java/com/ems/user/enums/AddressType.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-user-service/src/main/java/com/ems/user/enums/UserType.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-user-service/src/main/java/com/ems/user/enums/UserStatus.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-user-service/src/main/java/com/ems/user/entity/Education.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-user-service/src/main/java/com/ems/user/mapper/EducationMapper.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-user-service/src/main/java/com/ems/user/repo/AddressRepo.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-user-service/src/main/java/com/ems/user/mapper/AddressMapper.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-user-service/src/main/java/com/ems/user/dto/request/AddressUpdateRequest.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-user-service/src/main/resources/application.properties&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-user-service/pom.xml&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-user-service/src/main/java/com/ems/user/entity/Audit.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-user-service/src/main/java/com/ems/user/id/generator/AddressIdGenerator.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-user-service/src/main/java/com/ems/user/entity/Address.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-user-service/src/main/java/com/ems/user/dto/request/UserUpdateRequest.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-user-service/src/main/java/com/ems/user/service/UserService.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-user-service/src/main/java/com/ems/user/mapper/UserMapper.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-utility/src/main/java/ems/utility/util/EmsUtility.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-user-service/src/main/java/com/ems/user/repo/UserRepo.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-operation-service/src/main/java/com/ems/operation/controller/DepartmentController.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-user-service/src/main/java/com/ems/user/EmsUserServiceApplication.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-operation-service/src/main/java/com/ems/operation/mapper/DepartmentMapper.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-operation-service/src/main/java/com/ems/operation/dto/response/UserEntityResponse.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-user-service/src/main/java/com/ems/user/entity/User.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-operation-service/src/main/java/com/ems/operation/communication/SyncCommunication.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-operation-service/src/main/java/com/ems/operation/entity/Project.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-operation-service/src/main/java/com/ems/operation/entity/Department.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-operation-service/src/main/java/com/ems/operation/communication/response/UserResponse.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-user-service/src/main/java/com/ems/user/dto/response/UserResponse.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-operation-service/src/main/java/com/ems/operation/dto/request/ProjectRequest.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-operation-service/src/main/java/com/ems/operation/dto/request/DepartmentRequest.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-operation-service/src/main/java/com/ems/operation/dto/response/DepartmentResponse.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-operation-service/src/main/java/com/ems/operation/service/impl/ProjectServiceImpl.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-user-service/src/main/java/com/ems/user/service/impl/UserServiceImpl.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-user-service/src/main/java/com/ems/user/controller/UserController.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-operation-service/src/main/java/com/ems/operation/service/impl/DepartmentServiceImpl.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ems-user-service/src/main/java/com/ems/user/dto/request/UserRequest.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;/historyRootNode&gt;&#x0A;&lt;/History&gt;"/>
+		<item key="ShowDerived" value="false"/>
+		<item key="FilterByLocation" value="false"/>
+		<item key="WorkingSet" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="420"/>
+			<item key="DIALOG_Y_ORIGIN" value="117"/>
+			<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		</section>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/Users/anvi-echo/Documents/sandbox-anvi/Test"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>

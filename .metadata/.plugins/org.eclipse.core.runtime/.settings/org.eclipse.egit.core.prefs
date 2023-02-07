@@ -1,0 +1,4 @@
+GitRepositoriesView.GitDirectories=/Users/anvi-echo/Documents/Echo/Echo Digital/ed-dao-layer-lib-java/.git\:/Users/anvi-echo/Documents/sandbox-anvi/ems-utility/.git\:/Users/anvi-echo/Documents/Echo/Echo Digital/ed-taxonomy-management-service/.git\:
+GitRepositoriesView.GitDirectories.relative=/Users/anvi-echo/Documents/Echo/Echo Digital/ed-dao-layer-lib-java/.git\:ems-utility/.git\:/Users/anvi-echo/Documents/Echo/Echo Digital/ed-taxonomy-management-service/.git\:
+core_autoIgnoreDerivedResources=false
+eclipse.preferences.version=1

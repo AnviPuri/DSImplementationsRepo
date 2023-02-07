@@ -1,0 +1,5 @@
+package com.ems.user.controller;
+
+public class ReportController {
+
+}
